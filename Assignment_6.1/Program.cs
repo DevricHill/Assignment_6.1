@@ -33,7 +33,7 @@ namespace Assignment_6._1
 
             sb.Append(array[rnd.Next(0, array.Length)]);
 
-            while(rnd.Next(0, 1) == 1)
+            while(rnd.Next(0, 2) == 1)
             {
                 sb.Append(" " + array[rnd.Next(0, array.Length)]);
             }
